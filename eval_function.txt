@@ -1,0 +1,6 @@
+Eval function used for resource limited minmax search with alpha pruning is:
+
+eval_value = 3 * (remaining blue marbles in that state) + 2 * (remaining red marbles in that state)
+
+This would describe the desirability of that state for the player based on the remaining marbles and
+accordingly give weighted eval values to each state at given depth level.
